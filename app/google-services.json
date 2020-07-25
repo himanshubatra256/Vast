@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "775245302327",
+    "firebase_url": "https://vast-card.firebaseio.com",
+    "project_id": "vast-card",
+    "storage_bucket": "vast-card.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775245302327:android:f8f0edc8f812bf4587cdb2",
+        "android_client_info": {
+          "package_name": "com.example.mini_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775245302327-n2gdmul9dt8hcqmakuu5i4ggp8b6la89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDdw-qDuwwNbnFOGREnXMtMHz_mTPWQvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775245302327-n2gdmul9dt8hcqmakuu5i4ggp8b6la89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

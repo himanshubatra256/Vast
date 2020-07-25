@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".m2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="392dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/name" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="10dp"
+android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:inputType="textPersonName"
+                android:text="Select your Profile Photo->"
+                android:textColor="#F84545" />
+
+            <ImageButton
+                android:id="@+id/dphoto"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/pbutton"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_gravity="center"
+                android:background="#F84545"
+                android:text="Select Profile Photo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/dl"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:textSize="18sp"
+                android:inputType="textPersonName"
+                android:text="Select your Driving Lisence:->"
+                android:textColor="#F84545" />
+
+            <ImageButton
+                android:id="@+id/dp"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/black" />
+
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="#F84545"
+                android:text="Select Driving Lisence"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/dl2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:textSize="18sp"
+                android:inputType="textPersonName"
+                android:text="Select your RC->"
+                android:textColor="#F84545" />
+
+            <ImageButton
+                android:id="@+id/picrc"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/black" />
+
+
+            <Button
+                android:id="@+id/brc"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#F84545"
+                android:text="Select RC"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:inputType="textPersonName"
+                android:text="Select your Insurance->"
+                android:textColor="#F84545" />
+
+            <ImageButton
+                android:id="@+id/ins"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/black" />
+
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="#F84545"
+                android:text="Select Insurance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:inputType="textPersonName"
+                android:text="Select Vehicle's Pollution->"
+                android:textColor="#F84545" />
+
+            <ImageButton
+                android:id="@+id/pol"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/bpol"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="#F84545"
+                android:text="Select Vehicle's Pollution"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="upload"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="120dp"
+                android:textSize="20sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/scrollView2" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
